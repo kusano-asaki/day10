@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  background: linear-gradient(#05FBFF, #1E00FF);
+}
+
+h1 {
+  color: #fff;
+  font-weight: bold;
+  border-left: 6px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+a {
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+a:hover {
+  color : #ff7043;
+}
